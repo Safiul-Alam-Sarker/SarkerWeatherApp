@@ -1,0 +1,28 @@
+{
+  "name": "node-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start" :"node src/app.js"
+  },
+  "author": "Safiul Alam Sarker",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-A-Sarker/Sarker-s-Weather-App-Node-Website.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/S-A-Sarker/Sarker-s-Weather-App-Node-Website/issues"
+  },
+  "homepage": "https://github.com/S-A-Sarker/Sarker-s-Weather-App-Node-Website#readme",
+  "description": ""
+}
