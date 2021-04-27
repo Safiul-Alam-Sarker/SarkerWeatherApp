@@ -75,19 +75,10 @@ const getInfo = (event) =>{
     //    })
 
 
-    var url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=117746d0c6c449b1cb2fe6ea8c181caa`;
+    var url = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=117746d0c6c449b1cb2fe6ea8c181caa`;
     fetch(url)
     .then(response => response.json())
     .then(data => {
-
-
-
-
-
- 
-  
-
-
 
 // fetch(url)
 //     .then(function(response){
