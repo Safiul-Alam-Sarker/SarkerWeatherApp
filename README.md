@@ -1,0 +1,3 @@
+# SarkerWeatherApp
+Created with node and express
+this collects weather data from an api but this is not working with heroku
